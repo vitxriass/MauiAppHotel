@@ -1,8 +1,12 @@
 ﻿
+using System.Collections;
+
 namespace MauiAppHotel
 {
     public partial class App : Application
     {
+        internal IList lista_quartos;
+
         public App()
         {
             InitializeComponent();

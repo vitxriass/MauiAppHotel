@@ -57,6 +57,23 @@
 	</ItemGroup>
 
 	<ItemGroup>
+	  <AndroidResource Remove="Views\NovaPasta\**" />
+	  <Compile Remove="Views\NovaPasta\**" />
+	  <EmbeddedResource Remove="Views\NovaPasta\**" />
+	  <MauiCss Remove="Views\NovaPasta\**" />
+	  <MauiXaml Remove="Views\NovaPasta\**" />
+	  <None Remove="Views\NovaPasta\**" />
+	</ItemGroup>
+
+	<ItemGroup>
+	  <Compile Remove="Views\NewPage1.xaml.cs" />
+	</ItemGroup>
+
+	<ItemGroup>
+	  <MauiXaml Remove="Views\NewPage1.xaml" />
+	</ItemGroup>
+
+	<ItemGroup>
 	  <None Remove="Resources\Fonts\DMSerifText-Italic.ttf" />
 	  <None Remove="Resources\Fonts\DMSerifText-Regular.ttf" />
 	</ItemGroup>
